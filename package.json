@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha --require esm '**/**/*test.js'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/Rayyan-Karimi/js-drills-rayyan#readme",
   "devDependencies": {
-    "esm": "^3.2.25",
-    "mocha": "^10.8.2"
+    "esm": "^3.2.25"
   }
 }
