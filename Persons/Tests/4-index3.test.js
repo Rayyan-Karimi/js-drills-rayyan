@@ -4,16 +4,12 @@
  * 
  */
 
-import index3NameCity from '../Solutions/3-Hobbies.js'
+import index3NameCity from '../Solutions/4-Index3.js'
 import arrayOfObjects from '../persons.js'
 
 try {
-    if (arrayOfObjects.length > 3 && arrayOfObjects.hasOwnProperty(city) && arrayOfObjects.hasOwnProperty(name)) {
-        console.log('#1 Test passed for valid input');
-        index3NameCity(arrayOfObjects);
-    } else {
-        throw new Error('Expected an array of length > 4, but got length = ' + arrayOfObjects.length);
-    }
+    index3NameCity(arrayOfObjects);
+    console.log('#1 Test passed for valid input');
 } catch (err) {
     console.error('#1 Test failed for valid input: ', err.message);
 }
@@ -25,7 +21,7 @@ try {
     index3NameCity();
     console.log("No argument result found: " + result);
 } catch (err) {
-    console.error('\n#2 Test argument was not provided.');
+    console.error('\n#2 Test argument was not provided.', err.message);
 }
 
 

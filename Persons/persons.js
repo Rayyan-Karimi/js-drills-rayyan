@@ -95,7 +95,7 @@ const arrayOfObjects = [
       age: 34,
       email: 'jack@example.com',
       city: 'Mumbai',
-      country: 'India',
+      country: '',
       hobbies: ['playing cricket', 'watching movies'],
       isStudent: true
    }
