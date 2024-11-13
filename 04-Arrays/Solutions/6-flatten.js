@@ -12,7 +12,7 @@ function flatten(elements, flatArray = []) {
 
     each(elements, (item, index) => {
         if (Array.isArray(item)) {
-            flatArray.push(flatten(item))
+            flatArray.push(...flatten(item))
         } else {
             flatArray.push(item)
         }
